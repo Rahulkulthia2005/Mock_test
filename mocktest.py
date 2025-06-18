@@ -7,7 +7,6 @@ import re
 genai.configure(api_key="AIzaSyBzAPn9uMGb5WxHnk6kgNzEyPz3bdaqmMU")
 
 # ---------- UTILS ----------
-#hello python
 def extract_resume_text(file):
     reader = PyPDF2.PdfReader(file)
     text = ""
